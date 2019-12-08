@@ -1,0 +1,13 @@
+.Prop {
+    text-align: left;
+    padding: 5%;
+}
+
+.Title {
+    margin: 1% 0;
+}
+
+.Value {
+    font-size: 1.4rem;
+    margin: 0;
+}

@@ -1,0 +1,42 @@
+.links {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5% 8%;
+    display: flex;
+    flex-direction: column;
+    background: var(--dom);
+    align-items: flex-start;
+    transition: transform 300ms ease;
+    transform: translateY(-100%);
+    position: absolute;
+    z-index: 99;
+}
+
+.open {
+    transform: translate(0%);
+}
+
+.anc {
+    color: var(--light-bg);
+    padding: 3% 0;
+}
+
+@media (min-width: 1000px) {
+    .links {
+        transform: translateY(0);
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+        position: relative;
+    }
+
+    .anc {
+        padding: 0.7%;
+        border-radius: 5%;
+        margin: 0.5%;
+    }
+
+    a:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+}

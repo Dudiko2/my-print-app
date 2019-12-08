@@ -1,0 +1,16 @@
+.Button {
+    background-color: white;
+    border-style: none;
+    color: var(--dom);
+    font-weight: bold;
+    padding: 4% 8%;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    border-radius: 3%;
+}
+
+@media (min-width: 1000px) {
+    .Button {
+        padding: 3% 5%;
+    }
+}

@@ -1,0 +1,11 @@
+.Cont {
+    padding: 0;
+}
+
+.Title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: var(--dom);
+}

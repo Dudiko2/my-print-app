@@ -1,0 +1,27 @@
+.Cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.Title {
+    margin: 0 0 2% 0;
+}
+
+.Bottom {
+    background-color: var(--dom);
+    height: 5px;
+    width: 7%;
+}
+
+@media (min-width: 1000px) {
+    .Cont {
+        margin-bottom: 1%;
+    }
+
+    .Title {
+        margin: 0 0 0.7% 0;
+    }
+}

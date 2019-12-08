@@ -1,0 +1,6 @@
+.Props {
+    padding: 12% 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

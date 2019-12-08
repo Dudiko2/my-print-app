@@ -1,0 +1,30 @@
+.bar {
+    width: 100%;
+    background: var(--light-bg);
+    border-bottom: 0.15em solid var(--dom);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 5%;
+    position: relative;
+    z-index: 100;
+}
+
+.Title {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--dom);
+}
+
+@media (min-width: 1000px) {
+    .bar {
+        justify-content: center;
+        padding: 1% 4%;
+    }
+
+    .Desktop {
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+.Arrow {
+    transform-origin: 50% 50%;
+    fill: rgba(255,255,255,0.3);
+}
+
+.Left {
+    transform: rotate(180deg);
+}
+
+.Up {
+    transform: rotate(270deg);
+}
+
+.Down {
+    transform: rotate(90deg);
+}
+
+@media (min-width: 1000px) {
+    .Arrow:hover {
+        cursor: pointer;
+        fill: rgba(255,255,255,1);;
+    }
+}

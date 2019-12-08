@@ -1,0 +1,31 @@
+.Image {
+    width: 100%;
+    height: auto;
+    padding: 0 10%;
+    margin: 0 0 5% 0;
+    border-radius: 5%;
+    background-color: var(--dom);
+}
+
+.Product {
+    padding: 0 5%;
+    margin: 0 0 10% 0;
+}
+
+@media (min-width: 1000px) {
+    .Product {
+        padding: 3% 0;
+        text-align: center;
+        margin: 0 0 5% 0;
+    }
+
+    .Image {
+        width: 80%;
+        transition: all .3s ease;
+        cursor: pointer;
+    }
+
+    .Image:hover {
+        transform: scale(1.05);
+    }
+}

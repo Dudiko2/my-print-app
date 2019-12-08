@@ -1,0 +1,43 @@
+.Showcase {
+    width: 100%;
+    padding: 12% 15% 8% 15%;
+    background-image: linear-gradient(to bottom, #1165d6, #0aa1f8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Text {
+    margin: 0 0 10% 0;
+    font-weight: 300;
+}
+
+@media (min-width: 1000px) {
+    .Showcase {
+        padding: 3% 10% 3% 15%;
+        flex-direction: row;
+    }
+
+    .imgCls {
+        width: 30%;
+    }
+
+    .prodBlock {
+        padding: 0 0 0 5%;
+    }
+
+    .prodBlock > * {
+        margin: 3%;
+    }
+
+    .prodBlock > h2 {
+        margin-left: 0;
+        font-size: 2rem;
+    }
+
+    .Text {
+        width: 60%;
+    }
+}
